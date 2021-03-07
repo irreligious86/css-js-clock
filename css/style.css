@@ -67,3 +67,14 @@ body {
     background: black;
     border-radius: 80% 30% 30% 80%;
 }
+
+.hour-hand:hover {
+    box-shadow: 0 0 40px 3px ghostwhite;
+}
+
+.highlight {
+    border: 22px solid #b6ffa3;
+    box-shadow: 0 0 100px 15px #5cb5e2;
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
