@@ -17,8 +17,8 @@ body {
 }
 
 .clock {
-    width: max(300px, 30rem);
-    height: max(300px, 30rem);
+    width: 30rem;
+    height: 30rem;
     border: 20px solid white;
     border-radius: 50%;
     margin: 50px auto;
@@ -32,8 +32,8 @@ body {
 
 .clock-face {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: max(260px, 100%);
+    height: max(260px, 100%);
     transform: translateY(-3px); /* account for the height of the clock hands */
 }
 
